@@ -20,7 +20,7 @@
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="핑크" id="tr8-iT-1g3">
-                        <imageReference key="image" image="heart.fill" catalog="system"/>
+                        <imageReference key="image" image="square.fill" catalog="system"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWu-We-cWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -37,11 +37,27 @@
                         <viewLayoutGuide key="safeArea" id="oLh-89-CuV"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="초록" image="heart.fill" catalog="system" id="HvC-F7-oyh"/>
+                    <tabBarItem key="tabBarItem" title="초록" image="square.fill" catalog="system" id="HvC-F7-oyh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vVV-iQ-qhq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="90" y="748"/>
+        </scene>
+        <!--파랑-->
+        <scene sceneID="dxa-rY-iiF">
+            <objects>
+                <viewController id="Ovx-K6-GyE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BOY-xF-b1M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4O0-5v-cwA"/>
+                        <color key="backgroundColor" systemColor="tintColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="파랑" image="square.fill" catalog="system" id="LNf-PP-4ul"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SEv-SI-wix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1157" y="748"/>
         </scene>
         <!--Tab Bar2 Controller-->
         <scene sceneID="Bhu-LZ-Rsg">
@@ -55,20 +71,24 @@
                     <connections>
                         <segue destination="SqM-KC-1Sm" kind="relationship" relationship="viewControllers" id="DYg-nt-2CP"/>
                         <segue destination="WXK-kK-2DM" kind="relationship" relationship="viewControllers" id="AoT-T3-smM"/>
+                        <segue destination="Ovx-K6-GyE" kind="relationship" relationship="viewControllers" id="QYU-ZC-Ic3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoB-ta-Jd2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-402" y="27"/>
+            <point key="canvasLocation" x="90" y="-1"/>
         </scene>
     </scenes>
     <resources>
-        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
