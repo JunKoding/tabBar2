@@ -43,6 +43,22 @@
             </objects>
             <point key="canvasLocation" x="90" y="748"/>
         </scene>
+        <!--노랑-->
+        <scene sceneID="3Fi-eX-nCg">
+            <objects>
+                <viewController id="CYK-Eg-NtJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MXq-3C-B1b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="yS4-E6-PUd"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="노랑" image="square.fill" catalog="system" id="Ix4-Nz-SZS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVo-jW-AOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1958" y="748"/>
+        </scene>
         <!--파랑-->
         <scene sceneID="dxa-rY-iiF">
             <objects>
@@ -57,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SEv-SI-wix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1157" y="748"/>
+            <point key="canvasLocation" x="1088" y="748"/>
         </scene>
         <!--Tab Bar2 Controller-->
         <scene sceneID="Bhu-LZ-Rsg">
@@ -72,11 +88,12 @@
                         <segue destination="SqM-KC-1Sm" kind="relationship" relationship="viewControllers" id="DYg-nt-2CP"/>
                         <segue destination="WXK-kK-2DM" kind="relationship" relationship="viewControllers" id="AoT-T3-smM"/>
                         <segue destination="Ovx-K6-GyE" kind="relationship" relationship="viewControllers" id="QYU-ZC-Ic3"/>
+                        <segue destination="CYK-Eg-NtJ" kind="relationship" relationship="viewControllers" id="vmD-qQ-QjZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoB-ta-Jd2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="90" y="-1"/>
+            <point key="canvasLocation" x="646" y="-109"/>
         </scene>
     </scenes>
     <resources>
@@ -86,6 +103,9 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

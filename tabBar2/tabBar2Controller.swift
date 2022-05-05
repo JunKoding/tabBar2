@@ -18,10 +18,9 @@ class tabBar2Controller: UITabBarController {
         self.tabBar.unselectedItemTintColor = .black // 탭바 아이템을 선택하지 않았을 때 색상
          */
        
-        self.tabBar.isTranslucent = true
         self.tabBar.tintColor = .black
         self.tabBar.unselectedItemTintColor = .white
-        
+        self.tabBar.isTranslucent = true
     }
 }
 
